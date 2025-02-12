@@ -1,0 +1,172 @@
+.text-red{
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-green{
+    color: green;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-bold-200{
+    font-weight: 200;
+}
+
+.text-bold-500{
+    font-weight: 500;
+}
+
+.text-bold-700{
+    font-weight: 700;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+
+/* design css  */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-weight: 500;
+    color: #4c4c4c;
+    outline: none;
+    visibility: visible;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+  .section-padding {
+    padding-top: 80px;
+  }
+  
+  .gallery-section {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #f44336;
+  } 
+  
+  .filter {
+    text-align: center;
+    max-width: 1050px;
+    margin: auto;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px 4px 4px 0;
+    display: inline-block;
+    color: #003;
+    background: #eee;
+    border: 1px solid #f44336;
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .btn:hover,.btn-active {
+    background: #f44336;
+    color: #fff;
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    max-width: 1320px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    /* gap: 14px; */
+  }
+  .gallery a {
+    display: flex;
+  }
+  .gallery img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 10px 10px;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .sets .hide,
+  .sets .pophide {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    right: 25px;
+    top: 25px;
+    color: white;
+    transition: 0.5s linear;
+    padding: 8px 40px;
+    border-radius: 25px;
+    background: red;
+    outline-offset: -6px;
+    outline: 2px solid #fff;
+  }
+  .closeBtn:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    outline: 2px solid #000;
+  }
+  
+  
+
+  
+
+
+
+  #prelli-font{
+    font-size: 1200;
+  }
+
+  #image{
+    background-color: #000;
+  }
+ 
+  .text-white{
+    color: white;
+  }
+
+
