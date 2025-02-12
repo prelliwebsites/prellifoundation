@@ -44,6 +44,10 @@
     font-size: 120px;
   }
 
+  .font-30{
+    font-size: 25px
+  }
+
 /* carousel css  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -223,5 +227,9 @@ carousel .logo {
   border-radius: 0.25rem;
   filter: grayscale(100%);
   animation: scroll 10s linear infinite;
+}
+
+.active{
+  color: green;
 }
                 
