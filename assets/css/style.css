@@ -14,6 +14,7 @@
     font-family: "Patrick Hand", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 17px;
   }
 
   .caption-regular {
@@ -257,4 +258,8 @@ carousel .logo {
   to {
     transform: translateX(-100%);
   }
+}
+
+.bold{
+  font-weight: 600;
 }
