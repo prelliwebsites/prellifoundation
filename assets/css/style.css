@@ -263,3 +263,13 @@ carousel .logo {
 .bold{
   font-weight: 600;
 }
+
+#bg-marquee{
+  color: black ;
+  position: relative;
+  height: 20vh;
+  min-height:20vh;
+  background: url(../imgs/prelli-main/main.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
