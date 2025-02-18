@@ -172,4 +172,9 @@
     color: white;
   }
 
+  .text-green{
+    color: linear-gradient(to right, green, red, lightblue);
+
+  }
+
 
