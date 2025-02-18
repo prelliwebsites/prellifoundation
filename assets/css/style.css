@@ -273,3 +273,7 @@ carousel .logo {
   background-size: cover;
   overflow: hidden;
 }
+
+.card-height{
+  height: 100vh;
+}
