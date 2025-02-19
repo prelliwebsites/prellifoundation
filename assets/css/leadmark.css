@@ -11748,3 +11748,7 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+
+.article-left{
+  margin-left: 90px;
+}
