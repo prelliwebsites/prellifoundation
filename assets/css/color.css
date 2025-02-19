@@ -64,6 +64,7 @@
   .gallery-section {
     position: relative;
     z-index: 1;
+    margin-top: -300px;
   }
   
   .title {
