@@ -64,7 +64,7 @@
   .gallery-section {
     position: relative;
     z-index: 1;
-    margin-top: -320px;
+    margin-top: -600px;
   }
   
   .title {
@@ -174,8 +174,12 @@
   }
 
   .text-green{
-    color: linear-gradient(to right, green, red, lightblue);
+    color: linear-gradientf(to right, green, red, lightblue);
 
+  }
+
+  .negative-top{
+    margin-top: -200px;
   }
 
 
