@@ -68,7 +68,7 @@
   .gallery-section {
     position: relative;
     z-index: 1;
-    margin-top: -200px;
+    margin-top: -2  00px;
   }
   
   .title {
@@ -185,5 +185,52 @@
   .negative-top{
     margin-top: -200px;
   }
+
+
+
+
+
+
+/* Desktop and Large Screens */
+@media (min-width: 1200px) {
+ 
+  /* gallery section   */
+
+  .gallery-section {
+    /* position: relative; */
+    z-index: 1;
+    margin-top: 1vh;
+  }
+
+  .dswd{
+    margin-top: -100vh;
+  }
+}
+
+/* Laptop Screens */
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+  .gallery-section {
+    
+    z-index: 1;
+   s
+  }
+}
+
+/* Tablet Screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .gallery-section {
+  display: none
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 767px) {
+
+  .gallery-section {
+    display: none
+  }
+}
 
 
