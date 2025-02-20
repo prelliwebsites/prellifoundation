@@ -8,13 +8,14 @@
     font-family: "Luckiest Guy", serif;
     font-weight: 400;
     font-style: normal;
+    color: black;
   }
   
   .caption{
     font-family: "Patrick Hand", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    /* font-size: 17px; */
   }
 
   .caption-regular {
@@ -326,6 +327,16 @@ carousel .logo {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.meeting-commisioner{
+  width: 550px;
+  border-radius: 25px;
+}
+.meeting-commisioner-1{
+  width: 450px;
+  border-radius: 25px;
+  margin-left: 50px;
 }
 
 @media (max-width: 1200px) {
