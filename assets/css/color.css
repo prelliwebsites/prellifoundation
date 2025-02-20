@@ -158,6 +158,10 @@
     color: black;
     outline: 2px solid #000;
   }
+
+  .br-25{
+    border-radius: 25px;
+  }
   
   
 
